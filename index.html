@@ -1526,6 +1526,24 @@
     }
 
     /* ==========================================
+       LOGOS IMAGES (ADDED)
+    ========================================== */
+    .logo-img {
+      height: 45px;
+      width: auto;
+      filter: invert(1) hue-rotate(180deg) brightness(1.3);
+      mix-blend-mode: screen;
+    }
+
+    .footer-logo-img {
+      height: 55px;
+      width: auto;
+      filter: invert(1) hue-rotate(180deg) brightness(1.3);
+      mix-blend-mode: screen;
+      margin-bottom: 16px;
+    }
+
+    /* ==========================================
        MAIN FOOTER
     ========================================== */
     footer {
@@ -1651,8 +1669,7 @@
   <nav id="main-nav">
     <div class="nav-inner">
       <div class="nav-logo">
-        <div class="logo-icon">⚡</div>
-        <div class="logo-text">LASER<span>CLEAN</span> BA</div>
+        <img src="favicon.png" alt="Laser Clean BA" class="logo-img">
       </div>
       <ul class="nav-links">
         <li><a href="#how">Cómo funciona</a></li>
@@ -2106,7 +2123,7 @@
     <div class="container">
       <div class="footer-top">
         <div class="footer-brand">
-          <div class="logo-text">LASER<span>CLEAN</span> BA</div>
+          <img src="favicon.png" alt="Laser Clean BA" class="footer-logo-img">
           <p>Tecnología láser industrial para limpieza y restauración de superficies. Buenos Aires, Argentina.</p>
         </div>
         <div class="footer-col">
